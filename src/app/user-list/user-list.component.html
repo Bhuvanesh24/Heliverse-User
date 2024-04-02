@@ -41,6 +41,7 @@
         <img [src]="user.avatar" class="card-img-top" alt="User Avatar">
         <div class="card-body">
           <h2 class="card-title">{{ user.first_name }} {{ user.last_name }}</h2>
+          <p class="card-text">Gender:{{ user.gender }}</p>
           <p class="card-text">Domain: {{ user.domain }}</p>
           <p class="card-text">Availability: {{ user.available ? 'Available' : 'Not Available' }}</p>
         
